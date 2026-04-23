@@ -13,6 +13,8 @@ churn_rate = df["Churn"].value_counts(normalize=True)
 
 print("Churn Rate:")
 print(churn_rate)
+print("\nChurn by Contract:")
+print(pd.crosstab(df["Contract"], df["Churn"], normalize="index"))
 
 # Plot
 churn_rate.plot(kind="bar")
