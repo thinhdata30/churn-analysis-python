@@ -36,3 +36,6 @@ cd data
 python analysis.py
 ```
 
+python analysis.py
+```
+
