@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data
-df = pd.read_csv("Churn.csv")
+df = pd.read_csv("data/Churn.csv")
 
 # Clean data
 df["TotalCharges"] = pd.to_numeric(df["TotalCharges"], errors="coerce")
