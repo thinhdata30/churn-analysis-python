@@ -4,7 +4,7 @@ This project analyzes customer churn using Python.
 
 ## Overview
 
-The goal is to understand customer behavior and identify patterns that lead to churn.
+The goal of this project is to understand customer behavior and identify patterns that lead to churn.
 
 ## Dataset
 
@@ -16,11 +16,11 @@ The goal is to understand customer behavior and identify patterns that lead to c
 * Data cleaning and preprocessing
 * Churn rate calculation
 * Churn analysis by contract type
-* Visualization using Matplotlib
+* Data visualization using Matplotlib
 
 ## Results
 
-* Majority of customers did not churn
+* Most customers did not churn (~73%)
 * Customers with month-to-month contracts have higher churn rates
 
 ## Tools
@@ -35,3 +35,4 @@ The goal is to understand customer behavior and identify patterns that lead to c
 cd data
 python analysis.py
 ```
+
