@@ -1,4 +1,18 @@
 # Customer Churn Prediction | Machine Learning
+## Live Demo
+
+Try the interactive Customer Churn Prediction app:
+
+https://thinh-churn-prediction.streamlit.app
+
+Built with Python, Scikit-learn, Logistic Regression, and Streamlit.
+
+Model performance on held-out test data:
+- ROC-AUC: 0.835
+- Churn Recall: 79.7%
+- Accuracy: 72.6%
+
+Users can input customer details to generate a churn risk score. This score is not a calibrated real-world probability.
 
 ## Overview
 
